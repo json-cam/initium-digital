@@ -1,3 +1,5 @@
 <template>
-  <h1>Initium Digital</h1>
+	<NuxtLayout>
+		<NuxtPage />
+	</NuxtLayout>
 </template>
