@@ -7,7 +7,9 @@
             <div class="services-grid">
                 <!-- WaaS Service -->
                 <div class="service-card">
-                    <div class="service-icon">🌐</div>
+                    <div class="service-icon">
+                        <img src="~/assets/img/service-icons/001-layers.png" alt="website as a service development">
+                    </div>
                     <h3>Website as a Service (WaaS)</h3>
                     <div class="price-tag">Starting at $149/month</div>
                     <p>Complete website solutions with ongoing maintenance, updates, and support. Focus on your business while we handle your web presence.</p>
@@ -22,7 +24,9 @@
 
                 <!-- SaaS Service -->
                 <div class="service-card">
-                    <div class="service-icon">⚙️</div>
+                    <div class="service-icon">
+                         <img src="~/assets/img/service-icons/002-code.png" alt="Custom SaaS Development">
+                    </div>
                     <h3>Custom SaaS Development</h3>
                     <div class="price-tag">Starting at $2,000 setup + $99/month</div>
                     <p>Tailored software solutions designed specifically for your business processes. From simple tools to complex systems.</p>
@@ -41,7 +45,9 @@
 
                 <!-- Hybrid Services -->
                 <div class="service-card">
-                    <div class="service-icon">🔗</div>
+                    <div class="service-icon">
+                         <img src="~/assets/img/service-icons/004-api-1.png" alt="WaaS Icon">
+                    </div>
                     <h3>Integration & Automation</h3>
                     <div class="price-tag">Starting at $1,000 setup + $99/month</div>
                     <p>Connect your existing systems and automate workflows. Progressive web apps, API integrations, and custom solutions.</p>
@@ -65,17 +71,17 @@
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px;">
                         <h4>Security & Compliance</h4>
                         <p>SSL, monitoring, backups</p>
-                        <strong>$29-299/month</strong>
+                        <strong>Additional  Cost</strong>
                     </div>
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px;">
                         <h4>Performance & Analytics</h4>
                         <p>Hosting, CDN, detailed reporting</p>
-                        <strong>$49-499/month</strong>
+                        <strong>Additional  Cost</strong>
                     </div>
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px;">
                         <h4>Training & Support</h4>
                         <p>Staff training, consulting</p>
-                        <strong>$150-400/session</strong>
+                        <strong>Additional  Cost</strong>
                     </div>
                 </div>
             </div>
