@@ -1,7 +1,7 @@
 <template>
       <!-- Hero Section -->
     <section id="home" class="hero">
-        <!-- <span class="hero-overlay"/> -->
+        <span class="hero-overlay"/>
         <div class="hero-content">
             <h1 class="floating">Custom Web & Software Solutions</h1>
             <p>Empowering small to medium businesses with tailored WaaS and SaaS solutions</p>
@@ -20,6 +20,10 @@
             color: white;
             position: relative;
             overflow: hidden;
+            background-image: url('~/assets/img/8.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
         }
 
         .hero::before {
@@ -29,8 +33,20 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8));
+            /* background: linear-gradient(45deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)); */
+            /* background-color: rgba(160, 182, 255, 0.534); */
             z-index: -1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            opacity: 0.5;
+            /* z-index: 0; */
         }
 
         .hero-content h1 {
@@ -64,5 +80,6 @@
 
         .hero-content {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            z-index: 1;
         }
 </style>
