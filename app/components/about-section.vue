@@ -5,7 +5,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Why InitiumDigital?</h2>
-                    <p>As a dedicated freelance developer, I specialize in creating custom web and software solutions that grow with your business. Unlike large agencies, you get direct access to the person building your solution.</p>
+                    <p>As a dedicated freelance developer based in Thorold Ontario Canada, I specialize in creating custom web and software solutions that grow with your business. Unlike large agencies, you get direct access to the person building your solution.</p>
                     <p>I focus on small to medium businesses who need reliable, scalable solutions without the enterprise price tag. Every project is tailored to your specific needs and budget.</p>
                     <p>My approach combines modern technology with practical business solutions, ensuring you get maximum value from your investment.</p>
                 </div>
