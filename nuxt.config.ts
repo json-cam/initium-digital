@@ -32,6 +32,7 @@ export default defineNuxtConfig({
 				{
 					src: "https://initiumanalytics-production.up.railway.app/analytics.js",
 					type: "text/javascript",
+					async: true,
 				},
 			],
 		},
