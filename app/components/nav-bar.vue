@@ -3,7 +3,10 @@
 		<nav class="container">
 			<div class="logo">
 				<NuxtLink to="/">
-					<img src="~/assets/img/logo-v1.png" alt="logo">
+					<img
+						src="~/assets/img/logo-v1.png"
+						alt="InitiumDigital Logo"
+					>
 				</NuxtLink>
 			</div>
 			<ul class="nav-links">
