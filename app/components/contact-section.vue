@@ -16,7 +16,7 @@
 					<h3>Get Your Free Consultation</h3>
 					<form
 						name="contact-ID"
-						method="post"
+						method="POST"
 						netlify
 					>
 						<div class="form-group">
