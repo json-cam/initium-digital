@@ -5,7 +5,7 @@
 				<NuxtLink to="/">
 					<img
 						src="~/assets/img/logo-v1.png"
-						alt="logo"
+						alt="InitiumDigital Logo"
 					>
 				</NuxtLink>
 			</div>

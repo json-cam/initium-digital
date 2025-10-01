@@ -32,6 +32,13 @@ export default defineNuxtConfig({
 					href: "/favicon.ico",
 				},
 			],
+			script: [
+				{
+					src: "https://initiumanalytics-production.up.railway.app/analytics.js",
+					type: "text/javascript",
+					async: true,
+				},
+			],
 		},
 	},
 	router: {
