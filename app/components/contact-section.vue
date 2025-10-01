@@ -17,7 +17,7 @@
 					<form
 						name="contact-ID"
 						method="post"
-						data-netlify="true"
+						netlify
 					>
 						<div class="form-group">
 							<label for="name">Name</label>
