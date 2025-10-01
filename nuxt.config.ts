@@ -50,7 +50,7 @@ export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	nitro: {
 		prerender: {
-			routes: ["/", "/contact"],
+			routes: ["/"],
 		},
 	},
 	eslint: {
