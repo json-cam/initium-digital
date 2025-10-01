@@ -1,13 +1,21 @@
 <template>
-      <!-- Hero Section -->
-    <section id="home" class="hero">
-        <span class="hero-overlay"/>
-        <div class="hero-content">
-            <h1 class="floating">Custom Web & Software Solutions</h1>
-            <p>Empowering small to medium businesses with tailored WaaS and SaaS solutions</p>
-            <NuxtLink to="#contact" class="cta-button">Get Your Free Consultation</NuxtLink>
-        </div>
-    </section>
+	<!-- Hero Section -->
+	<section
+		id="home"
+		class="hero"
+	>
+		<span class="hero-overlay" />
+		<div class="hero-content">
+			<h1 class="floating">
+				Custom Web & Software Solutions
+			</h1>
+			<p>Getting your business the tech it needs, without the enterprise price tag</p>
+			<NuxtLink
+				to="#contact"
+				class="cta-button"
+			>Get Your Free Consultation</NuxtLink>
+		</div>
+	</section>
 </template>
 
 <style scoped>
@@ -45,7 +53,7 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.3);
-            opacity: 0.5;
+            opacity: 0.8;
             /* z-index: 0; */
         }
 

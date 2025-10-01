@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
 	modules: ["@nuxt/eslint", "@nuxt/image"],
 	devtools: { enabled: true },
-	compatibilityDate: "2025-07-15",
 	app: {
 		head: {
 			title: "InitiumDigital",
@@ -18,9 +17,13 @@ export default defineNuxtConfig({
 					content: "width=device-width, initial-scale=1, maximum-scale=1",
 				},
 				{
-					name: "InitiumDigital",
+					name: "Description",
 					content: "Software Solutions, Web Development, and tech consulting services for small businesses, located in Thorold, Ontario. Empowering businesses with custom web and software solutions.",
-				}
+				},
+				{
+					name: "keywords",
+					content: "SaaS development, Web development, Software Development, Thorold Ontario, Freelance developer",
+				},
 			],
 			link: [
 				{
@@ -37,6 +40,7 @@ export default defineNuxtConfig({
 			scrollBehaviorType: "smooth",
 		},
 	},
+	compatibilityDate: "2025-07-15",
 	eslint: {
 		config: {
 			stylistic: {

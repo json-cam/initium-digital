@@ -1,80 +1,143 @@
 <template>
-<!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title" style="color: white;">Let's Build Something Amazing</h2>
-            <div class="contact-content">
-                <div class="contact-form">
-                    <h3>Get Your Free Consultation</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input id="name" type="text" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input id="email" type="email" name="email" placeholder="your@email.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="business">Business/Company</label>
-                            <input id="business" type="text" name="business" placeholder="Your Business Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Interested In</label>
-                            <select id="service" name="service" style="width: 100%; padding: 12px; border: none; border-radius: 8px; background: rgba(255, 255, 255, 0.1); color: white; font-size: 1rem;">
-                                <option value="">Select a Service</option>
-                                <option value="waas">Website as a Service</option>
-                                <option value="saas">Custom SaaS Development</option>
-                                <option value="integration">Integration & Automation</option>
-                                <option value="consultation">General Consultation</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Project Details</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project requirements..."/>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-info">
-                    <h3>Ready to Get Started?</h3>
-                    <p style="margin-bottom: 2rem;">Let's discuss your project and see how I can help your business grow with custom web and software solutions.</p>
-                    
-                    <div class="contact-item">
-                        <span style="font-size: 1.5rem;">📧</span>
-                        <div>
-                            <strong>Email</strong><br>
-                            hello@initiumdigital.tech
-                        </div>
-                    </div>
-                    <!-- <div class="contact-item">
+	<!-- Contact Section -->
+	<section
+		id="contact"
+		class="contact"
+	>
+		<div class="container">
+			<h2
+				class="section-title"
+				style="color: white;"
+			>
+				Let's Build Something Amazing
+			</h2>
+			<div class="contact-content">
+				<div class="contact-form">
+					<h3>Get Your Free Consultation</h3>
+					<form
+						name="contact-ID"
+						method="post"
+						data-netlify="true"
+					>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input
+								id="name"
+								type="text"
+								name="name"
+								placeholder="Your Name"
+								required
+							>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input
+								id="email"
+								type="email"
+								name="email"
+								placeholder="your@email.com"
+								required
+							>
+						</div>
+						<div class="form-group">
+							<label for="business">Business/Company</label>
+							<input
+								id="business"
+								type="text"
+								name="business"
+								placeholder="Your Business Name"
+							>
+						</div>
+						<div class="form-group">
+							<label for="service">Interested In</label>
+							<select
+								id="service"
+								name="service"
+								style="width: 100%; padding: 12px; border: none; border-radius: 8px; background: rgba(255, 255, 255, 0.1); color: white; font-size: 1rem;"
+							>
+								<option value="">
+									Select a Service
+								</option>
+								<option value="waas">
+									Website as a Service
+								</option>
+								<option value="saas">
+									Custom SaaS Development
+								</option>
+								<option value="integration">
+									Integration & Automation
+								</option>
+								<option value="consultation">
+									General Consultation
+								</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="message">Project Details</label>
+							<textarea
+								id="message"
+								name="message"
+								rows="4"
+								placeholder="Tell me about your project requirements..."
+							/>
+						</div>
+						<button
+							type="submit"
+							class="submit-btn"
+						>
+							Send Message
+						</button>
+					</form>
+				</div>
+				<div class="contact-info">
+					<h3>Ready to Get Started?</h3>
+					<p style="margin-bottom: 2rem;">
+						Let's discuss your project and see how I can help your business grow with custom web and software solutions.
+					</p>
+
+					<div class="contact-item">
+						<span style="font-size: 1.5rem;">📧</span>
+						<div>
+							<strong>Email</strong><br>
+							hello@initiumdigital.tech
+						</div>
+					</div>
+					<!-- <div class="contact-item">
                         <span style="font-size: 1.5rem;">📱</span>
                         <div>
                             <strong>Phone</strong><br>
                             (555) 123-4567
                         </div>
                     </div> -->
-                    <div class="contact-item">
-                        <span style="font-size: 1.5rem;">⏰</span>
-                        <div>
-                            <strong>Response Time</strong><br>
-                            Within 24 hours
-                        </div>
-                    </div>
-                    
-                    <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.1); border-radius: 10px;">
-                        <h4>Free Consultation Includes:</h4>
-                        <ul style="list-style: none; margin-top: 1rem;">
-                            <li style="padding: 0.3rem 0;">✓ Project requirements analysis</li>
-                            <li style="padding: 0.3rem 0;">✓ Technology recommendations</li>
-                            <li style="padding: 0.3rem 0;">✓ Timeline and budget estimate</li>
-                            <li style="padding: 0.3rem 0;">✓ No-obligation proposal</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+					<div class="contact-item">
+						<span style="font-size: 1.5rem;">⏰</span>
+						<div>
+							<strong>Response Time</strong><br>
+							Within 24 hours
+						</div>
+					</div>
+
+					<div style="margin-top: 2rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.1); border-radius: 10px;">
+						<h4>Free Consultation Includes:</h4>
+						<ul style="list-style: none; margin-top: 1rem;">
+							<li style="padding: 0.3rem 0;">
+								✓ Project requirements analysis
+							</li>
+							<li style="padding: 0.3rem 0;">
+								✓ Technology recommendations
+							</li>
+							<li style="padding: 0.3rem 0;">
+								✓ Timeline and budget estimate
+							</li>
+							<li style="padding: 0.3rem 0;">
+								✓ No-obligation proposal
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
 
 <style scoped>

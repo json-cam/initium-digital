@@ -3,7 +3,10 @@
 		<nav class="container">
 			<div class="logo">
 				<NuxtLink to="/">
-					<img src="~/assets/img/logo-v1.png" alt="logo">
+					<img
+						src="~/assets/img/logo-v1.png"
+						alt="logo"
+					>
 				</NuxtLink>
 			</div>
 			<ul class="nav-links">
@@ -29,7 +32,7 @@
             display: grid;
             grid-template-columns: auto 1fr;
             align-items: center;
-            padding: 1rem 0;
+            padding: 1rem 5rem;
         }
 
         .logo {

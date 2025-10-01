@@ -1,37 +1,39 @@
 <template>
-   <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>Why InitiumDigital?</h2>
-                    <p>As a dedicated freelance developer based in Thorold Ontario Canada, I specialize in creating custom web and software solutions that grow with your business. Unlike large agencies, you get direct access to the person building your solution.</p>
-                    <p>I focus on small to medium businesses who need reliable, scalable solutions without the enterprise price tag. Every project is tailored to your specific needs and budget.</p>
-                    <p>My approach combines modern technology with practical business solutions, ensuring you get maximum value from your investment.</p>
-                </div>
-                <div class="stats">
-                    <!-- <div class="stat">
-                        <h3>50+</h3>
-                        <p>Projects Completed</p>
-                    </div> -->
-                    <div class="stat">
-                        <h3>98%</h3>
-                        <p>Client Satisfaction</p>
-                    </div>
-                    <div class="stat">
-                        <h3>24/7</h3>
-                        <p>Support Available</p>
-                    </div>
-                    <div class="stat">
-                        <h3>10+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- About Section -->
+	<section
+		id="about"
+		class="about"
+	>
+		<div class="container">
+			<div class="about-content">
+				<div class="about-text">
+					<h2>Why InitiumDigital?</h2>
+					<p>As a dedicated freelance developer based in Thorold Ontario Canada, I specialize in creating custom web and software solutions that grow with your business. Unlike large agencies, you get direct access to the person building your solution.</p>
+					<p>If you are a small business, or a startup looking for reliable, scalable solutions without the enterprise price tag, I can help bring your vision to life. Every project is tailored to your specific needs and budget.</p>
+					<p>My approach combines modern technology with practical business solutions, ensuring you get maximum value from your investment.</p>
+				</div>
+				<div class="stats">
+					<!-- <div class="stat">
+						<h3>50+</h3>
+						<p>Projects Completed</p>
+					</div> -->
+					<div class="stat">
+						<h3>98%</h3>
+						<p>Client Satisfaction</p>
+					</div>
+					<div class="stat">
+						<h3>24/7</h3>
+						<p>Support Available</p>
+					</div>
+					<div class="stat">
+						<h3>10+</h3>
+						<p>Years Experience</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
-
 
 <style scoped>
 /* About Section */
